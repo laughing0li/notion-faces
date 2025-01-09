@@ -8,7 +8,7 @@ class Document extends NextDocument {
         <Head>
           <link href="/fonts/Quicksand.tff" as="font" crossOrigin="anonymous" />
           {/* Google Analytics */}
-          <script
+          {/* <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
           />
@@ -28,7 +28,7 @@ class Document extends NextDocument {
             });
           `,
             }}
-          />
+          /> */}
         </Head>
         <body className="font-bold">
           <Main />

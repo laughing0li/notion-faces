@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: *
+Disallow: /_next/
+# Host
+Host: https://notionfaces.net/
+    
+# Sitemaps
+Sitemap: https://notionfaces.net/sitemap.xml
