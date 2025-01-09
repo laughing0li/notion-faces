@@ -1,5 +1,6 @@
 import { useTranslation } from 'next-i18next';
 import Image from 'next/legacy/image';
+import Partners from '../Partner'
 
 export default function Footer() {
   const { t } = useTranslation(`common`);
@@ -49,6 +50,7 @@ export default function Footer() {
         </a>
         {t(`license`)}
       </div> */}
+      <Partners />
     </footer>
   );
 }
